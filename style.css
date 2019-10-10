@@ -513,7 +513,17 @@ footer {
 }
 
 .footer-nav ul li {
-    margin: 0 10px;
+    margin: 0 2px;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    color: #515f67;
+    transition: all .5s;
+}
+
+.footer-nav ul li a:hover {
+    color: #fff;
 }
 
 
