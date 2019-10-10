@@ -5,10 +5,6 @@
     padding: 0;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
 @font-face {
     font-family: 'segoe uil';
     src: url('font/segoeuil.ttf');
@@ -16,6 +12,14 @@ body {
 @font-face {
     font-family: 'segoe uisb';
     src: url('font/seguisb.ttf');
+}
+@font-face {
+    font-family: 'segoe ui';
+    src: url('font/segoeui.ttf');
+}
+
+body {
+    font-family: 'segoe ui', sans-serif;
 }
 
 .white-divider {
@@ -42,25 +46,21 @@ header {
 }
 
 nav {
-    width: 100%;
-    height: 150px;
     background: rgba(73, 84, 91, 0.85);
+    padding: 4% 15%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 nav ul {
     list-style-type: none;
-    float: right;
-    margin-top: 60px;
-    margin-right: 230px;
-}
-
-nav ul li {
-    display: inline-block;
+    display: flex;
+    justify-content: flex-end;
 }
 
 nav ul li a {
-    font-size: 15px;
-    display: block;
+    font-size: 14px;
     text-align: center;
     text-transform: uppercase;
     color: #f1f2f2;
@@ -74,11 +74,6 @@ nav .active {
     color: #4bcaff;
 }
 
-nav .logo {
-    float: left;
-    margin-left: 230px;
-    margin-top: 60px
-}
 
 /* HERO */
 
@@ -172,7 +167,7 @@ nav .logo {
 }
 
 .portfolio-nav .navbar {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'segoe ui', sans-serif;
     font-weight: bold;
     font-size: 14px;
     margin: 20px auto;
@@ -246,7 +241,7 @@ nav .logo {
 }
 
 #default p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'segoe ui', sans-serif;
     font-size: 14px;
     line-height: 25px;
     color: #fff;
@@ -329,7 +324,7 @@ nav .logo {
 }
 
 #johndoe p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'segoe ui', sans-serif;
     color: #fff;
     font-size: 14px;
     line-height: 25px;
@@ -391,10 +386,6 @@ nav .logo {
     font-family: 'segoe uil';
 }
 
-#testimonials .logo-test span {
-    font-size: 72px;
-}
-
 #testimonials .test-content {
     color: #515f67;
     font-family: 'segoe uil';
@@ -408,7 +399,7 @@ nav .logo {
 
 #testimonials .test-content p:last-child {
     margin-top: 20px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'segoe ui', sans-serif;
     font-weight: bold;
     font-size: 14px;
     color: #4bcaff;
@@ -523,9 +514,6 @@ footer {
 
 .footer-nav ul li {
     margin: 0 10px;
-}
-
-.footer-nav .copyright {
 }
 
 
